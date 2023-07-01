@@ -12,9 +12,10 @@ on:
 jobs:
   create-repository:
     runs-on: ubuntu-latest
-    name: Creating Organization Repository
+#    name: Creating Organization Repository
     steps:
-      run: echo "Test"
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
 #      - name: Use Node.js
 #        uses: actions/setup-node@v2
 #      - name: Creating GitHub Organization Repository
