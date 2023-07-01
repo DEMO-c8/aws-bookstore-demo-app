@@ -1,4 +1,4 @@
-name: Create Repo
+name: Sandbox
 on: 
 #  repository_dispatch:
 #    types: [ssa-repo]
